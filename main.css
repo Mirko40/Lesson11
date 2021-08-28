@@ -24,6 +24,7 @@ body {
     text-decoration: none;
     color: #262626;
   }
+  
   .header__head {
     font-size: 60px;
     line-height: 25px;
@@ -46,7 +47,7 @@ position: absolute;
     left:164px;
     top:440px;
   }
-  .button {
+  .header__button {
    
     background-color: #FF6033;
     width: 201px;
@@ -64,11 +65,11 @@ font-family: 'Raleway', sans-serif;
     left:164px;
     top:540px;
     }
-    .button:hover {
+    .header__button:hover {
         transform: scale(1.2);
         transition: transform 1s;
     }
-  .header__buttons {
+  .header__navigation {
     width: 560px;
     height: 25px;
     /* border: 2px solid red;  */
@@ -80,7 +81,7 @@ font-family: 'Raleway', sans-serif;
     justify-content:space-around;
    align-self:center;
   }
-  .navigations__buttons {
+  .navigation__button {
    background-color: #FAFAFC;
    font-size: 16px;
    color: #262626;
@@ -90,12 +91,12 @@ font-family: 'Raleway', sans-serif;
    text-decoration: none;
    padding-top: 8px;
   }
-  .navigations__buttons:hover {
+  .navigation__button:hover {
     /* text-decoration:overline 2px red; */
     border-top: 2px solid red;
     padding-top: 6px;
   }
-  .navigations__buttons:active, .header__logo a:active {
+  .navigation__button:active, .header__logo a:active {
     color: red;
    
 }
