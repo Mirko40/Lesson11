@@ -1,6 +1,6 @@
 body {
     background: #252525;
-    margin-top: 150px;
+    
  }
 .header {
     background-image: url('Foto/img.png');
@@ -10,7 +10,7 @@ body {
     margin: auto;
     position: relative;
    }
-  .header_logo {
+  .header__logo {
     font-size: 50px;
     line-height: 25px;
     color: #262626;
@@ -20,10 +20,58 @@ body {
     left:165px;
     top:50px;
   } 
-  .header_buttons {
+  .header__logo a{
+    text-decoration: none;
+    color: #262626;
+  }
+  .header__head {
+    font-size: 60px;
+    line-height: 25px;
+    color: #262626;
+    font-weight:800;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left:164px;
+    top:360px;
+  }
+  .header__text {
+    width: 370px;
+    height: 70px;
+    font-size: 17px;
+line-height: 27px;
+color: #262626;
+font-weight: 300;
+font-family: 'Raleway', sans-serif;
+position: absolute;
+    left:164px;
+    top:440px;
+  }
+  .button {
+   
+    background-color: #FF6033;
+    width: 201px;
+    height: 56px;
+    margin-top: 38px;
+    font-size: 20px;
+line-height: 27px;
+color: #ffffff;
+font-weight: 300;
+font-family: 'Raleway', sans-serif;
+    text-align: center;
+    cursor: pointer; 
+    text-transform: uppercase;
+    position: absolute;
+    left:164px;
+    top:540px;
+    }
+    .button:hover {
+        transform: scale(1.2);
+        transition: transform 1s;
+    }
+  .header__buttons {
     width: 560px;
     height: 25px;
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     position: absolute;
     left:776px;
     top:56px;
@@ -31,20 +79,27 @@ body {
     align-items: center;
     justify-content:space-around;
    align-self:center;
+  }
+  .navigations__buttons {
    background-color: #FAFAFC;
-   outline: none;
-  }
-  .button {
    font-size: 16px;
-line-height: 25px;
-color: #262626;
-font-weight: 700;
-font-family: 'Raleway', sans-serif;
-text-align: right;
-outline: none;
-background-color: #FAFAFC;
-
+   color: #262626;
+   font-weight: 700;
+   font-family: 'Raleway', sans-serif;
+   text-align: right;
+   text-decoration: none;
+   padding-top: 8px;
   }
+  .navigations__buttons:hover {
+    /* text-decoration:overline 2px red; */
+    border-top: 2px solid red;
+    padding-top: 6px;
+  }
+  .navigations__buttons:active, .header__logo a:active {
+    color: red;
+   
+}
+  
    .about {
     width: 1500px;
     height: 700px;
@@ -55,7 +110,7 @@ background-color: #FAFAFC;
     background-position: 170px 80px;
     position: relative;
    }
-   .about_head {
+   .about__head {
     font-size: 90px;
     line-height: 27px;
     color: #ffffff;
