@@ -1,7 +1,3 @@
-* {
-  transition: all 0.5s ease-in;
-}
-
 body {
   background: #252525;
 }
@@ -65,10 +61,11 @@ body {
   border-top: 2px solid red;
   padding-top: 6px;
 }
-.navigation__button:active,
-.top__logo a:active {
+.top__logo a:hover {
+  /* text-decoration:overline 2px red; */
   color: red;
 }
+
 .header__head {
   font-size: 60px;
   line-height: 25px;
