@@ -121,7 +121,7 @@ font-family: 'Raleway', sans-serif;
     left:835px;
     top:180px;
    }
-   .about_text {
+   .about__text {
     width: 480px;
     height: 190px;
     font-size: 17px;
@@ -133,6 +133,6 @@ font-family: 'Raleway', sans-serif;
     left:835px;
     top:280px;
    }
- .about_text_2 {
+ .about__text2 {
      padding-top: 10px;
  }  
