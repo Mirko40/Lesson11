@@ -1,3 +1,8 @@
 .header__container {
   background-image: url(Foto3/Layer.png);
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-position: -425px -603px;
 }
+
