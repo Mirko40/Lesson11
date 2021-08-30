@@ -1,8 +1,20 @@
-.header__container {
+
+.header {
   background-image: url(Foto3/Layer.png);
   width: 800px;
   height: 600px;
   margin: auto;
-  background-position: -425px -603px;
+  background-position: -425px -604px;
+  margin-top: 150px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
-
+.header__container {
+  width: 685px;
+  height: 390px;
+  background: #111A28;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 32.5px rgba(0,0,0,0.82));
+  }
