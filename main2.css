@@ -1,5 +1,12 @@
 
-.header {
+@font-face {
+  font-family: "Museo Sans Rounded";
+  font-style: normal;
+  font-weight: 500;
+  src:local("Museo Sans Rounded");
+  src:url("Fonts/MuseoSansRounded-500.woff2");
+}
+.nike {
   background-image: url(Foto3/Layer.png);
   width: 800px;
   height: 600px;
@@ -11,10 +18,109 @@
   align-items: center;
   justify-content: center;
 }
-.header__container {
+.nike__container {
   width: 685px;
   height: 390px;
   background: #111A28;
   border-radius: 10px;
   filter: drop-shadow(0 0 32.5px rgba(0,0,0,0.82));
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content:space-between;
   }
+  .nike__pictures {
+    /* border: 2px solid red; */
+    width: 367px;
+    height: 386px;
+  }
+  .nike__text {
+    /* border: 2px solid red; */
+    width: 318px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+  align-self: center;
+  align-items: center;
+    }
+  .pictures__logo {
+    width: 65px;
+    height: 33px;
+    background-image: url(Foto4/logo.png);
+    margin-top: 24px;
+    margin-left: 22px;
+  }
+  .pictures__shoes {
+    width: 330px;
+    height: 160px;
+    background-image: url(Foto4/NikeSBStefanJanoskiMax.png);
+    margin-top: 69px;
+    margin-left: 37px;
+  }
+  .pictures__color {
+    width: 70px;
+    height: 15px;
+    /* border: 2px solid red; */
+    margin-top: 71px;
+    margin-left: 178px;
+    display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content:space-between;
+  }
+  .color__grey {
+    width: 13px;
+    height: 13px;
+    background-color: #1F273F;
+    border-radius: 50%;
+    border:1px solid #7A7F86;
+  }
+  .color__white {
+    width: 13px;
+    height: 13px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    }
+    .color__red {
+      width: 13px;
+      height: 13px;
+      background-color: #ED3333;
+      border-radius: 50%;
+      }
+      .color__blue {
+        width: 13px;
+        height: 13px;
+        background-color: #29E3EA;
+        border-radius: 50%;
+        }
+.text__head {
+  width: 160px;
+  height: 45px;
+  margin-top: 78px;
+    margin-right: 85px;
+  font-size: 24px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+}
+.text__about {
+  width: 200px;
+  height: 15px;
+  margin-top: 20px;
+    margin-right: 40px;
+   font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+}
+.text__stars {
+  width: 65px;
+  height: 13px;
+  margin-top: 23px;
+    margin-right: 175px;
+    background-image: url(Foto4/stars.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
