@@ -19,6 +19,7 @@ body {
   align-self: center;
   justify-content: left;
   padding-top: 50px;
+  
 }
 
 .header__top {
@@ -102,10 +103,12 @@ body {
   transform: scale(1.2);
   transition: transform 1s;
 }
-.header__container img {
+.header__scroll {
   margin-top: 295px;
-  margin-left: 585px;
+  margin-left: auto;
+  margin-right: auto; 
 }
+
 
 .about {
   width: 1500px;
@@ -330,6 +333,7 @@ body {
   top: 217px;
 }
 .images__text--bottom {
+  padding-top: 20px;
   font-size: 13px;
   line-height: 15px;
   color: #ffffff;
