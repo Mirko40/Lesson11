@@ -102,6 +102,10 @@ body {
   transform: scale(1.2);
   transition: transform 1s;
 }
+.header__container img {
+  margin-top: 295px;
+  margin-left: 585px;
+}
 
 .about {
   width: 1500px;
@@ -134,7 +138,7 @@ body {
   margin-top: 35px;
   margin-left: 870px;
 }
-.about__text__bottom {
+.about__text--bottom {
   padding-top: 10px;
 }
 
@@ -325,7 +329,7 @@ body {
   left: 20px;
   top: 217px;
 }
-.images__text__bottom {
+.images__text--bottom {
   font-size: 13px;
   line-height: 15px;
   color: #ffffff;
