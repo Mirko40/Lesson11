@@ -2,10 +2,11 @@
 @font-face {
   font-family: "Museo Sans Rounded";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   src:local("Museo Sans Rounded");
-  src:url("Fonts/MuseoSansRounded-500.woff2");
+  src:url("Fonts/MuseoSansRounded300.woff2");
 }
+
 .nike {
   background-image: url(Foto3/Layer.png);
   width: 800px;
@@ -102,6 +103,7 @@
 letter-spacing: 0px;
 line-height: 26px;
 color: #e1e1e1;
+font-weight: 300;
 font-family: "Museo Sans Rounded";
 }
 .text__about {
@@ -113,6 +115,7 @@ font-family: "Museo Sans Rounded";
 letter-spacing: 0px;
 line-height: 26px;
 color: #e1e1e1;
+font-weight: 300;
 font-family: "Museo Sans Rounded";
 }
 .text__stars {
@@ -123,4 +126,38 @@ font-family: "Museo Sans Rounded";
     background-image: url(Foto4/stars.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+.text__buttons {
+  width: 143px;
+  height: 35px;
+  margin-top: 27px;
+    margin-right: 99px;
+    display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content:space-between;
+  /* border: 1px solid white; */
+}
+.text__buttons--select {
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 18px;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+background-color: #111A28;
+width: 70px;
+  height: 33px;
+}
+.text__button--add {
+  width: 185px;
+  height: 40px;
+  margin-top: 27px;
+    margin-right: 55px;
+    background-color: #202835;
+    font-size: 14px;
+letter-spacing: 0px;
+line-height: 18px;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded";
+border: 0.5px solid grey;
 }
