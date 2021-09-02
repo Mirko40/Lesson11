@@ -6,7 +6,6 @@
   src:local("Museo Sans Rounded");
   src:url("Fonts/MuseoSansRounded300.woff2");
 }
-
 .nike {
   background-image: url(Foto3/Layer.png);
   width: 800px;
@@ -70,100 +69,106 @@
   justify-content:space-between;
   }
   .color__grey {
-    width: 13px;
-    height: 13px;
-    background-color: #1F273F;
+    width: 10px;
+    height: 10px;
+    background-color: #1f273f;
     border-radius: 50%;
-    border:1px solid #7A7F86;
+    border: 1px solid #7a7f86;
   }
   .color__white {
-    width: 13px;
-    height: 13px;
-    background-color: #FFFFFF;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
     border-radius: 50%;
-    }
-    .color__red {
-      width: 13px;
-      height: 13px;
-      background-color: #ED3333;
-      border-radius: 50%;
-      }
-      .color__blue {
-        width: 13px;
-        height: 13px;
-        background-color: #29E3EA;
-        border-radius: 50%;
-        }
-.text__head {
-  width: 160px;
-  height: 45px;
-  margin-top: 78px;
+  }
+  .color__red {
+    width: 10px;
+    height: 10px;
+    background-color: #ed3333;
+    border-radius: 50%;
+  }
+  .color__blue {
+    width: 10px;
+    height: 10px;
+    background-color: #29e3ea;
+    border-radius: 50%;
+  }
+  .text__head {
+    width: 160px;
+    height: 45px;
+    margin-top: 78px;
     margin-right: 85px;
-  font-size: 24px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #e1e1e1;
-font-weight: 300;
-font-family: "Museo Sans Rounded";
-}
-.text__about {
-  width: 200px;
-  height: 15px;
-  margin-top: 20px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #e1e1e1;
+    font-weight: 300;
+    font-family: "Museo Sans Rounded";
+  }
+  .text__about {
+    width: 200px;
+    height: 15px;
+    margin-top: 20px;
     margin-right: 40px;
-   font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #e1e1e1;
-font-weight: 300;
-font-family: "Museo Sans Rounded";
-}
-.text__stars {
-  width: 65px;
-  height: 13px;
-  margin-top: 23px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: rgba(225, 225, 225, 0.5);
+    font-weight: 300;
+    font-family: "Museo Sans Rounded";
+  }
+  .text__stars {
+    width: 65px;
+    height: 13px;
+    margin-top: 23px;
     margin-right: 175px;
     background-image: url(Foto4/stars.png);
     background-position: center;
     background-repeat: no-repeat;
-}
-.text__select {
-  width: 143px;
-  height: 35px;
-  margin-top: 27px;
+  }
+  .text__select {
+    width: 143px;
+    height: 35px;
+    margin-top: 27px;
     margin-right: 99px;
     display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content:space-between;
-  /* border: 1px solid white; */
-}
-.text__select--button {
-font-size: 18px;
-letter-spacing: 0px;
-line-height: 18px;
-color: #e1e1e1;
-font-family: "Museo Sans Rounded";
-background-color: #111A28;
-width: 70px;
-  height: 33px;
-  text-align-last: center;
-  text-align: center;
-  opacity: 0.5;
-}
-
-.text__button--add {
-  width: 185px;
-  height: 40px;
-  margin-top: 27px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+  }
+  .text__select--button {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: rgba(225, 225, 225, 0.6);
+    font-family: "Museo Sans Rounded";
+    background-color: #111a28;
+    width: 70px;
+    height: 33px;
+    text-align-last: center;
+    text-align: center;
+  }
+  option {
+    color: rgba(225, 225, 225, 0.6);
+  }
+  .text__button--add {
+    width: 185px;
+    height: 40px;
+    margin-top: 27px;
     margin-right: 55px;
     background-color: #202835;
     font-size: 14px;
-letter-spacing: 0px;
-line-height: 18px;
-color: #e1e1e1;
-font-family: "Museo Sans Rounded";
-border: 0.5px solid grey;
-text-align: center;
-opacity: 0.7;
-}
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    border: 0.5px solid grey;
+    text-align: center;
+    opacity: 0.7;
+  }
+  select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+  }
